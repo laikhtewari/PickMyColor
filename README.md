@@ -1,2 +1,2 @@
 # PickMyColor
-Created by **people** at HackingEDU
+Created by Laikh Tewari, Kiran Kunigiri, Mihir Waknis, and Sameer Ahmed at HackingEDU
