@@ -14,6 +14,7 @@
 		9F5868A71BDB5C7F00ACCD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5868A51BDB5C7F00ACCD07 /* LaunchScreen.storyboard */; };
 		9F5868B21BDB5C8000ACCD07 /* ColorPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5868B11BDB5C8000ACCD07 /* ColorPickerTests.swift */; };
 		9F5868BD1BDB5C8000ACCD07 /* ColorPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5868BC1BDB5C8000ACCD07 /* ColorPickerUITests.swift */; };
+		CB8559FE1BDB8B0800B433CA /* RGBGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8559FD1BDB8B0800B433CA /* RGBGetter.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F5868B81BDB5C8000ACCD07 /* ColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5868BC1BDB5C8000ACCD07 /* ColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerUITests.swift; sourceTree = "<group>"; };
 		9F5868BE1BDB5C8000ACCD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8559FD1BDB8B0800B433CA /* RGBGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGBGetter.swift; path = ../RGBGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9F58689C1BDB5C7F00ACCD07 /* AppDelegate.swift */,
 				9F58689E1BDB5C7F00ACCD07 /* ViewController.swift */,
+				CB8559FD1BDB8B0800B433CA /* RGBGetter.swift */,
 				9F5868A01BDB5C7F00ACCD07 /* Main.storyboard */,
 				9F5868A31BDB5C7F00ACCD07 /* Assets.xcassets */,
 				9F5868A51BDB5C7F00ACCD07 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F58689F1BDB5C7F00ACCD07 /* ViewController.swift in Sources */,
+				CB8559FE1BDB8B0800B433CA /* RGBGetter.swift in Sources */,
 				9F58689D1BDB5C7F00ACCD07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				9F5868C31BDB5C8000ACCD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F5868C41BDB5C8000ACCD07 /* Build configuration list for PBXNativeTarget "ColorPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				9F5868C61BDB5C8000ACCD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F5868C71BDB5C8000ACCD07 /* Build configuration list for PBXNativeTarget "ColorPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				9F5868C91BDB5C8000ACCD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
