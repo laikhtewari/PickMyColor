@@ -11,9 +11,32 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+    // Variables
+    @IBOutlet weak var imageFrame: UIView!
+    
+    var session: AVCaptureSession!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        session = AVCaptureSession()
+        session.sessionPreset = AVCaptureSessionPresetPhoto
+        
+//        let err: NSError
+//        let deviceInput = AVCaptureDeviceInput(device: inputDevice, error: &err)
+
+        do {
+            let inputDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
+            let deviceInput = try AVCaptureDeviceInput(device: inputDevice)
+            // Do the rest of your work...
+        } catch let error as NSError {
+            // Handle any errors
+            print(error)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +45,9 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func photoButtonPressed(sender: UIButton) {
+        
+    }
 
 
 }
