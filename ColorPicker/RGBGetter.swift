@@ -11,7 +11,7 @@ import UIKit
 
 class RGBGetter
 {
-    func getRGBAtPointFromImage ( image: UIImage, point: CGPoint) -> (red: Int, green: Int, blue: Int)
+    static func getRGBAtPointFromImage ( image: UIImage, point: CGPoint) -> (red: Int, green: Int, blue: Int)
     {
         let x = point.x
         let y = point.y
